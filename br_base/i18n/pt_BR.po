@@ -111,6 +111,7 @@ msgstr "Cidades"
 #: model:ir.ui.view,arch_db:br_base.view_br_base_partner_form
 #: model:ir.ui.view,arch_db:br_base.view_br_base_res_bank_form
 #: model:ir.ui.view,arch_db:br_base.view_company_form_inherited
+#: model:ir.model,name:br_base.model_res_state_city
 msgid "City"
 msgstr "Cidade"
 
@@ -153,6 +154,7 @@ msgstr "Contato"
 #: model:ir.ui.view,arch_db:br_base.view_br_base_partner_form
 #: model:ir.ui.view,arch_db:br_base.view_br_base_res_bank_form
 #: model:ir.ui.view,arch_db:br_base.view_company_form_inherited
+#: model:ir.ui.view,arch_db:br_base.view_br_base_partner_form
 msgid "Country"
 msgstr "País"
 
@@ -274,11 +276,6 @@ msgid "Municipal Inscription"
 msgstr "Inscrição Municipal"
 
 #. module: br_base
-#: model:ir.model,name:br_base.model_res_state_city
-msgid "City"
-msgstr "Município"
-
-#. module: br_base
 #: model:ir.model.fields,field_description:br_base.field_res_company_nfe_a1_file
 msgid "NFe A1 File"
 msgstr "Arquivo NFe A1"
@@ -327,10 +324,6 @@ msgstr "Número"
 msgid "OFX Account Number Format"
 msgstr "Formato do número da conta OFX"
 
-#. module: br_base
-#: model:ir.ui.view,arch_db:br_base.view_br_base_partner_form
-msgid "Country"
-msgstr "País"
 
 #. module: br_base
 #: model:ir.model.fields,field_description:br_base.field_res_partner_rg_fisica
