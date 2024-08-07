@@ -58,7 +58,11 @@ class ResPartnerBank(models.Model):
     acc_number_dig = fields.Char('Account Number Digit', size=8)
     bra_number = fields.Char('Agency', size=8)
     bra_number_dig = fields.Char('Account Agency Digit', size=8)
-
+    tipo_conta = fields.Selection([
+        ('poupanca', 'Conta Poupança'),
+        ('corrente', 'Conta Corrente')
+    ], string='Tipo de Conta')
+    
     @api.multi
     def name_get(self):
         result = []
